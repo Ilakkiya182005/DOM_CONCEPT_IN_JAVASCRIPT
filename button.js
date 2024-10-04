@@ -1,15 +1,21 @@
 function handleRed(){
     document.getElementById('first-button').classList.add('red');
+    document.getElementById('second-button').classList.remove('blue');
+    document.getElementById('third-button').classList.remove('green');
     document.body.style.background='red';
   
 }
 function handleBlue(){
     document.getElementById('second-button').classList.add('blue');
+    document.getElementById('third-button').classList.remove('green');
+    document.getElementById('first-button').classList.remove('red');
     document.body.style.background='blue';
    
 }
 function handleGreen(){
     document.getElementById('third-button').classList.add('green');
+    document.getElementById('first-button').classList.remove('red');
+    document.getElementById('second-button').classList.remove('blue');
     document.body.style.background='green';
 }
 function handleClick(){
