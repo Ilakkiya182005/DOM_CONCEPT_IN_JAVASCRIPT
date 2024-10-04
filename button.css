@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+div{
+    /* margin-left: 200px; */
+    margin-top:100px;
+}
+#first-button,#second-button,#third-button{
+    margin:40px;
+    margin-left:150px;
+    padding:30px;
+    
+}
+#default{
+    padding:30px;
+    margin-left:430px;
+}
+.red{
+    background-color: red;
+    color:#fff;
+}
+.blue{
+    background-color: blue;
+    color:#fff;
+}
+.green{
+    background-color: green;
+    color:#fff;
+}
